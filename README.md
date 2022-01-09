@@ -9,9 +9,9 @@ are numerical order and lexicographical order, and either ascending or descendin
 * What is a stable sorting algorithm
 
 ## Provided Data Structures and Functions
-* [print_array](./print_array.c) - Function that prints an array of integers
-* [print_list](./print_list.c) - Function that prints a lst of integers
-* [listint_s](./sort.h) - A doubly linked list node
+* **['print_array'](./print_array.c) - Function that prints an array of integers
+* **['print_list'](./print_list.c) - Function that prints a lst of integers
+* **['listint_s'](./sort.h) - A doubly linked list node
 
 ## Header File: file_folder
 * [sort.h](./sort.h): Header file containing prototypes for all functions written in the project.
