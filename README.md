@@ -8,16 +8,12 @@ are numerical order and lexicographical order, and either ascending or descendin
 * How to select the best sorting algorithm for a given input
 * What is a stable sorting algorithm
 
-## Provided Data Structures and Functions
-* **['print_array'](./print_array.c) - Function that prints an array of integers
-* **['print_list'](./print_list.c) - Function that prints a lst of integers
-* **['listint_s'](./sort.h) - A doubly linked list node
-
-## Header File: file_folder
+## Header File:
 * [sort.h](./sort.h): Header file containing prototypes for all functions written in the project.
 
 ## Bubble Sort
 ### Function implementation
+
 | Prototype  				     | File 				   | Big O notation file |
 |____________________________________________|_____________________________________|_____________________|
 |'void bubble_sort(int *array, size_t size);' |[0-bubble_sort.c](./0-bubble_sort.c) |[0-O](./0-O)	 |
@@ -29,6 +25,7 @@ are numerical order and lexicographical order, and either ascending or descendin
 
 ## Insertion Sort
 ### Function implementation
+
 | Prototype  				     | File 				   		  | Big O notation file |
 |____________________________________________|____________________________________________________|_____________________|
 |'void insertion_sort_list(listint_t **list);' |[1-insetion_sort_list.c](./1-insertion_sort_list.c) |[1-O](./1-O)	        |
@@ -39,6 +36,7 @@ are numerical order and lexicographical order, and either ascending or descendin
 
 ## Selection Sort
 ### Function implementation
+
 | Prototype  				     | File 				            | Big O notation file |
 |____________________________________________|______________________________________________|_____________________|
 |'void selection_sort(int * array, size_t size);' |[2-selection_sort.c](./2-selection_sort.c) |[2-O](./2-O)	  |
@@ -49,6 +47,7 @@ are numerical order and lexicographical order, and either ascending or descendin
 
 ## Quict Sort
 ### Function implementation
+
 | Prototype  				     | File 				              | Big O notation file |
 |____________________________________________|________________________________________________|_____________________|
 |'void quick_sort(int * array, size_t size);' |[3-quick_sort.c](./3-quick_sort.c)               |[3-O](./3-O)         |
