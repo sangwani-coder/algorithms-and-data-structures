@@ -9,7 +9,7 @@ are numerical order and lexicographical order, and either ascending or descendin
 * What is a stable sorting algorithm
 
 ## Header File:
-* [sort.h](./sort.h): Header file containing prototypes for all functions written in the project.
+* [`sort.h](./sort.h): Header file containing prototypes for all functions written in the project.
 
 ## Bubble Sort
 ### Function implementation
