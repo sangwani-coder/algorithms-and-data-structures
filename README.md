@@ -9,7 +9,7 @@ are numerical order and lexicographical order, and either ascending or descendin
 * What is a stable sorting algorithm
 
 ## Test Files:
-* [tests](./tests): Test files containg files with entry point functions (__main__), the funciton for print the the array(`print_array()`) and for printing a list(`print_list()`).
+* [tests](./tests): Test files containg files with entry point functions `_main_`, the function for printing an array `print_array()` and for printing a list `print_list()`.
 
 ## Header File:
 
@@ -38,7 +38,7 @@ are numerical order and lexicographical order, and either ascending or descendin
 [Insertion sort](https://en.wikipedia.org/wiki/Insertion_sort) is a simple sorting algorithm that builds the final sorted array (or list) one item at a time. It is much less efficient on large lists than more advanced algorithms such quicksort, heapsort, or merge sort.
 ### Time complexity:
 * Worst-case: __O(n^2)__ Quadratic time
-* Average-case: __O(n)__ Linear time
+* Average-case: __O(n^2)__ Quadratic time
 * Best-case: __O(n)__ Linear time
 
 ## Selection Sort
@@ -51,8 +51,8 @@ are numerical order and lexicographical order, and either ascending or descendin
 [Selection sort](https://en.wikipedia.org/wiki/Selection_sort) is an in-place comparison sorting algorithm. It has an O(n^2), which makes it inefficient on large lists, and generally perfomrs worse than the similar insertion sort.
 ### Time complecity:
 * Worst-case: __O(n^2)__ Quadratic time
-* Average-case: __O(1)__ Constant time
-* Best-case: __O(1)__ Constant time
+* Average-case: __O(n^2)__ Quadratic time
+* Best-case: __O(n^2)__ Quadratic time
 
 ## Quict Sort
 ### Function implementation
