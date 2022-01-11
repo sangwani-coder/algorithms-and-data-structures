@@ -46,7 +46,7 @@ are numerical order and lexicographical order, and either ascending or descendin
  
 | Prototype  				          | File		                        | Big O notation file |
 | ------------------------------------------------|---------------------------------------------| --------------------|
-|'void selection_sort(int * array, size_t size);' | [2-selection_sort.c](./2-selection_sort.c)  | `[2-O](./2-O)`      |
+|`void selection_sort(int * array, size_t size);` | [2-selection_sort.c](./2-selection_sort.c)  | `[2-O](./2-O)`      |
 
 [Selection sort](https://en.wikipedia.org/wiki/Selection_sort) is an in-place comparison sorting algorithm. It has an O(n^2), which makes it inefficient on large lists, and generally perfomrs worse than the similar insertion sort.
 ### Time complecity:
@@ -59,7 +59,7 @@ are numerical order and lexicographical order, and either ascending or descendin
 
 | Prototype  				      | File 				    | Big O notation file |
 | --------------------------------------------|-------------------------------------| --------------------|
-|'void quick_sort(int * array, size_t size);' | [3-quick_sort.c](./3-quick_sort.c)  | `[3-O](./3-O)`      |
+|`void quick_sort(int * array, size_t size);` | [3-quick_sort.c](./3-quick_sort.c)  | `[3-O](./3-O)`      |
 
 [Quicksort](https://en.wikipedia.org/wiki/Quicksort) is an in-place sorting algorithm. When implemented well, it can be somewhat faster than merge sort and about two or three times faster than heapsort.
 ### Time complexity:
