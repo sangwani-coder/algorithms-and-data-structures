@@ -67,4 +67,20 @@ are numerical order and lexicographical order, and either ascending or descendin
 * Average-case: __O(n log n)__ Logarithmic time
 * Best-case: __O(n log n)__ Logarithmic time
 
+## Shell Sort
+### Function implementation
+| Prototype  				          | File		                        | Big O notation file |
+| ------------------------------------------------|---------------------------------------------| --------------------|
+|`void shell_sort(int *array, size_t size);`	  |[100-shell_sort.c](./100-shell_sort.c)	|`No big O notations` |
+
+## Cocktail Sort
+### Function implementation
+| Prototype  				          | File		                                 | Big O notation file |
+| ------------------------------------------------|------------------------------------------------------| --------------------|
+| `void cocktail_sort_list(listint_t **list);`	  | [101-cocktail_Sort_list.c](./101-cocktail_sot_list.c)| `[101-O](./101-O)`  |
+### Time complexity:
+* Worst-case:__O(n^2)__ Quadratic time 
+* Avearage-case:__O(n^2)__ Quadratic time
+* Best-case:__O(n)__ Linear time
+
 Author: Sangwani P Zyambo <sangwanizyambo@gmail.com>

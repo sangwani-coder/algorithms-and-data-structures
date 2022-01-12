@@ -17,15 +17,27 @@ typedef struct listint_s
 	struct listint_s *next;
 } listint_t;
 
-/* Function prototypes */
+/*Provided Function prototypes */
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
 void bubble_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
+
+/* My functions prototypes*/
 void swap(int *x, int *y);
 size_t lomuto_partition(int *array, int low, int high, size_t size);
 void lomuto_scheme(int *array, int low, int high, size_t size);
 
+/* Advanced/optional tasks function prototypes*/
+void shell_sort(int *array, size_t size);
+void cocktail_sort_list(listint_t **list);
+void counting_sort(int *array, size_t size);
+void merge_sort(int *array, size_t size);
+void heap_sort(int *array, size_t size);
+void radix_sort(int *array, size_t size);
+void bitonic_sort(int *array, size_t size);
+void quick_sort_hoare(int *array, size_t size);
+void sort_deck(deck_node_t **deck);
 #endif /* SORT_H */
