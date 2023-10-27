@@ -13,7 +13,6 @@ def linear_search(list, target):
     return None
 
 
-# driver code
 def verify(result, target):
     if result:
         print(f"Target {target} found at index:", result)
