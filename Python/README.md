@@ -5,3 +5,6 @@ Binary search compares the target value to the middle element of the array. If t
 
 ### linear_search:
 A linear search sequentially checks each element of the list until it finds an element that matches the target value. If the algorithm reaches the end of the list, the search terminates unsuccessfully.
+
+### recursive_binary_search:
+Implementation of the binary search algorithm using recursion.
