@@ -6,6 +6,8 @@
 * entry point 
 */
 int main (){
+    printf("String Linear Search\n");
+
     char *array[] = {"peter", "james", "john", "niza"};
 
     int result;

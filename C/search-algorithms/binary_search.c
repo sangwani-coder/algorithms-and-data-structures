@@ -6,16 +6,21 @@
 * entry point 
 */
 int main (){
+    printf("Iterative Binary Search\n");
     int numbers[11] = {1,2,3,4,5,6,7,8,9, 10};
     bool result;
 
-    result = binary_search(numbers, 7);
+    int length = arr_length(numbers);
+    int low = 0;
+    int high = length - 1;
+
+    result = binary_search(numbers, 7, low, high);
     verify_binary(result, 7);
 
-    result = binary_search(numbers, 10);
+    result = binary_search(numbers, 10, low, high);
     verify_binary(result, 10);
 
-    result = binary_search(numbers, 0);
+    result = binary_search(numbers, 0, low, high);
     verify_binary(result, 0);
 
     return 0;
@@ -24,7 +29,7 @@ int main (){
 /** 
  * binary search algorithm
 */
-int binary_search(int *array, int target) {
+int binary_search(int *array, int target, int low, int high) {
     int length = arr_length(array);
     int first = 0;
     int last = length - 1;
