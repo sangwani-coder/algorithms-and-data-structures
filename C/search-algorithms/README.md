@@ -5,6 +5,6 @@ To test an algorithm make sure you compile, the <file_name.c> and the <helpers.c
 
 eg.
 
-    gcc binary_search helpers.c
+    gcc binary_search.c helpers.c
 
     
