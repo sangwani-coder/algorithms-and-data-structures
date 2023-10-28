@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include "search.h"
 
-
 /**
  * calculates the length of the array
 */
@@ -51,5 +50,17 @@ void verify_string(int result, char *target){
         printf("Target %s found at index %d \n", target, result);
     }else{
         printf("Target %s not found!\n", target);
+    }
+}
+
+/**
+ * prints the result of the string search algorithm.
+*/
+void verify_binary(bool result, int target){
+
+    if (result){
+        printf("Target %d found\n", target);
+    }else{
+        printf("Target %d not found!\n", target);
     }
 }
