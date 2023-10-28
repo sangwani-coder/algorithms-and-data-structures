@@ -23,26 +23,16 @@ int main (){
 }
 
 
-/* linear search algorithm. searches for a string.
+/* linear search algorithm to searches for a string.
 *
 */
-
 int linear_search_string(char *array[], char *target) {
+    int length = string_arr_length(*array);
    
-    for (int i = 0; i < 4; i++){
+    for (int i = 0; i < length; i++){
         if (array[i] == target){
             return i;
         }
     }
     return 0;
-}
-
-
-void verify_string(int result, char *target){
-
-    if (result){
-        printf("Target %s found at index %d \n", target, result);
-    }else{
-        printf("Target %s not found!\n", target);
-    }
 }

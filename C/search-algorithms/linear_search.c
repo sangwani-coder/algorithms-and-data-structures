@@ -1,7 +1,5 @@
 #include <stdio.h>
 #include "search.h"
-#define ARRAY_LENGTH(arr) (sizeof(arr) / sizeof(arr[0]))
-
 
 /* 
 * entry point 
@@ -16,34 +14,21 @@ int main (){
     result = linear_search(numbers, 10);
     verify(result, 10);
 
-    result = linear_search(numbers, 2);
-    verify(result, 2);
+    result = linear_search(numbers, 0);
+    verify(result, 0);
 
     return 0;
 }
 
-
-/* linear search algorithm
-*
+/**
+ * linear search algorithm
 */
-
 int linear_search(int *array, int target) {
-    for (int i=0; i < 11; i++){
+    int length = arr_length(array);
+    for (int i=0; i < length; i++){
         if (array[i] == target){
             return i;
         }
     }
     return 0;
-}
-
-/*
-* verify linear search
-*/
-void verify(int result, int target){
-
-    if (result){
-        printf("Target %d found at index %d \n", target, result);
-    }else{
-        printf("Target %d not found! \n", target);
-    }
 }
